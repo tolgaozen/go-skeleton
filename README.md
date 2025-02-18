@@ -1,8 +1,21 @@
-# GoSkeleton
-
+<div align="center">
+<h1 align="center">
+   GoSkeleton
+</h1>
+</div>
+<p align="center">
 GoSkeleton is a structured and scalable Go project template with built-in support for **gRPC, HTTP, Swagger, telemetry,
 circuit breakers, rate limiting**, and **export utilities**. It provides a clean foundation for developing
 production-ready applications.
+</p>
+
+<p align="center">
+    <a href="https://github.com/tolgaOzen/go-skeleton" target="_blank"><img src="https://img.shields.io/github/go-mod/go-version/tolgaOzen/go-skeleton?style=for-the-badge&logo=go" alt="Skeleton Go Version" /></a>&nbsp;
+    <a href="https://goreportcard.com/report/github.com/tolgaOzen/go-skeleton" target="_blank"><img src="https://goreportcard.com/badge/github.com/tolgaOzen/go-skeleton?style=for-the-badge&logo=go" alt="Skeleton Go Report Card" /></a>&nbsp;
+    <a href="https://github.com/tolgaOzen/go-skeleton" target="_blank"><img src="https://img.shields.io/github/license/tolgaOzen/go-skeleton?style=for-the-badge" alt="Skeleton Licence" /></a>&nbsp;
+    <a href="https://img.shields.io/github/commit-activity/m/tolgaOzen/go-skeleton?style=for-the-badge" target="_blank"><img src="https://img.shields.io/github/commit-activity/m/tolgaOzen/go-skeleton?style=for-the-badge" alt="Skeleton Commit Activity" /></a>&nbsp;
+</p>  
+
 
 ## Features
 
@@ -16,13 +29,6 @@ production-ready applications.
 - **Security & Code Quality** – Integrated linters and security scanners.
 
 ---
-
-<p align="center">
-    <a href="https://github.com/tolgaOzen/go-skeleton" target="_blank"><img src="https://img.shields.io/github/go-mod/go-version/tolgaOzen/go-skeleton?style=for-the-badge&logo=go" alt="Skeleton Go Version" /></a>&nbsp;
-    <a href="https://goreportcard.com/report/github.com/tolgaOzen/go-skeleton" target="_blank"><img src="https://goreportcard.com/badge/github.com/tolgaOzen/go-skeleton?style=for-the-badge&logo=go" alt="Skeleton Go Report Card" /></a>&nbsp;
-    <a href="https://github.com/tolgaOzen/go-skeleton" target="_blank"><img src="https://img.shields.io/github/license/tolgaOzen/go-skeleton?style=for-the-badge" alt="Skeleton Licence" /></a>&nbsp;
-    <a href="https://img.shields.io/github/commit-activity/m/tolgaOzen/go-skeleton?style=for-the-badge" target="_blank"><img src="https://img.shields.io/github/commit-activity/m/tolgaOzen/go-skeleton?style=for-the-badge" alt="Skeleton Commit Activity" /></a>&nbsp;
-</p>  
 
 ## Getting Started
 
