@@ -17,6 +17,13 @@ production-ready applications.
 
 ---
 
+<p align="center">
+    <a href="https://github.com/tolgaOzen/go-skeleton" target="_blank"><img src="https://img.shields.io/github/go-mod/go-version/tolgaOzen/go-skeleton?style=for-the-badge&logo=go" alt="Skeleton Go Version" /></a>&nbsp;
+    <a href="https://goreportcard.com/report/github.com/tolgaOzen/go-skeleton" target="_blank"><img src="https://goreportcard.com/badge/github.com/tolgaOzen/go-skeleton?style=for-the-badge&logo=go" alt="Skeleton Go Report Card" /></a>&nbsp;
+    <a href="https://github.com/tolgaOzen/go-skeleton" target="_blank"><img src="https://img.shields.io/github/license/tolgaOzen/go-skeleton?style=for-the-badge" alt="Skeleton Licence" /></a>&nbsp;
+    <a href="https://img.shields.io/github/commit-activity/m/tolgaOzen/go-skeleton?style=for-the-badge" target="_blank"><img src="https://img.shields.io/github/commit-activity/m/tolgaOzen/go-skeleton?style=for-the-badge" alt="Skeleton Commit Activity" /></a>&nbsp;
+</p>  
+
 ## Getting Started
 
 ### Prerequisites
