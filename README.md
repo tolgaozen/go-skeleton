@@ -4,8 +4,8 @@
 </h1>
 </div>
 <p align="center">
-GoSkeleton is a structured and scalable Go project template with built-in support for **gRPC, HTTP, Swagger, telemetry,
-circuit breakers, rate limiting**, and **export utilities**. It provides a clean foundation for developing
+GoSkeleton is a structured and scalable Go project template with built-in support for <b>gRPC, HTTP, Swagger, telemetry,
+circuit breakers, rate limiting</b>, and <b>export utilities</b>. It provides a clean foundation for developing
 production-ready applications.
 </p>
 
