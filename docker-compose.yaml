@@ -1,0 +1,31 @@
+version: "3.9"
+services:
+    skeleton:
+        build:
+            context: .
+            dockerfile: Dockerfile.local
+        restart: "always"
+        ports:
+            - "8080:8080"
+            - "50051:50051"
+        volumes:
+            - .:/app
+        depends_on:
+            - "database"
+        healthcheck:
+            test: ["CMD", "curl", "-f", "http://localhost:8080/healthz"]
+            interval: 10s
+            retries: 10
+            start_period: 60s
+
+    database:
+        image: "postgres"
+        ports:
+            - "5432:5432"
+        environment:
+            - "POSTGRES_PASSWORD=secret"
+            - "POSTGRES_DB=skeleton"
+
+
+volumes:
+    pg-data:
