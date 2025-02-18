@@ -1,0 +1,49 @@
+server:
+  rate_limit: 100_000
+  http:
+    enabled: true
+    port: 8080
+    tls:
+      enabled: false
+      cert: etc/tls/tls.crt
+      key: etc/tls/tls.key
+  grpc:
+    port: 50051
+    tls:
+      enabled: false
+      cert: etc/tls/tls.crt
+      key: etc/tls/tls.key
+
+profiler:
+  enabled: true
+  port: 6060
+
+authn:
+  enabled: false
+  method: preshared
+  preshared:
+    keys: ["secret"]
+
+logger:
+  level: debug
+  output: json
+
+tracer:
+  enabled: false
+  exporter: "otlp"
+
+meter:
+  enabled: false
+  exporter: 'otlp'
+
+service:
+  circuit_breaker: false
+
+database:
+  engine: postgres
+  uri: postgres://postgres:secret@localhost:5432/skeleton?plan_cache_mode=force_custom_plan&default_query_exec_mode=cache_describe
+  auto_migrate: true
+  max_open_connections: 1
+  max_idle_connections: 1
+  max_connection_lifetime: 300s
+  max_connection_idle_time: 60s

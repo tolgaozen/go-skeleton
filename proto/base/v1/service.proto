@@ -1,0 +1,94 @@
+syntax = "proto3";
+package base.v1;
+
+import "base/v1/base.proto";
+import "google/api/annotations.proto";
+import "protoc-gen-openapiv2/options/annotations.proto";
+import "validate/validate.proto";
+
+option go_package = "github.com/tolgaOzen/go-skeleton/pkg/pb/base/v1";
+
+// ** USER SERVICE **
+// The User service defines the gRPC methods for managing users.
+
+service UserService {
+  // Create is a unary RPC to create a new user.
+  // It requires a UserCreateRequest and returns a MessageResponse.
+  rpc Create(UserCreateRequest) returns (MessageResponse) {
+    option (google.api.http) = {
+      post: "/v1/users"
+      body: "*"
+    };
+
+    option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_operation) = {
+      summary: "create user"
+      tags: ["User"]
+      operation_id: "users.create"
+      description: ""
+    };
+  }
+
+  // List is a unary RPC to get a list of all users.
+  // It requires a UserListRequest and returns a UserListResponse.
+  rpc List(UserListRequest) returns (UserListResponse) {
+    option (google.api.http) = {get: "/v1/users"};
+
+    option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_operation) = {
+      summary: "list users"
+      tags: ["User"]
+      operation_id: "users.list"
+      description: ""
+    };
+  }
+}
+
+// UserCreateRequest is the message used for the request to create a user.
+message UserCreateRequest {
+  // id is a unique identifier for the user.
+  string id = 1 [
+    json_name = "id",
+    (validate.rules).string = {
+      pattern: "[a-zA-Z0-9-,]+"
+      max_bytes: 64
+      ignore_empty: false
+    }
+  ];
+
+  // name is the name of the user.
+  string name = 2 [
+    json_name = "name",
+    (validate.rules).string = {
+      max_bytes: 64
+      ignore_empty: false
+    }
+  ];
+}
+
+// MessageResponse
+message MessageResponse {
+  // message is a string message.
+  string message = 1 [json_name = "message"];
+}
+
+// UserListRequest is the message used for the request to list all users.
+message UserListRequest {
+  // Pagination size, optional, must be a positive integer.
+  uint32 size = 1 [
+    json_name = "size",
+    (validate.rules).uint32 = {gt: 0},
+    (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_field) = {description: "Pagination size, optional, must be a positive integer."}
+  ];
+
+  // Pagination page, optional, must be a non-negative integer.
+  uint32 page = 2 [
+    json_name = "page",
+    (validate.rules).uint32 = {gte: 0},
+    (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_field) = {description: "Pagination page, optional, must be a non-negative integer."}
+  ];
+}
+
+// UserListResponse is the message returned from the request to list all users.
+message UserListResponse {
+  // users is a list of users.
+  repeated User users = 1 [json_name = "users"];
+}

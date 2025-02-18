@@ -1,0 +1,17 @@
+syntax = "proto3";
+package base.v1;
+
+import "google/api/expr/v1alpha1/checked.proto";
+import "google/protobuf/any.proto";
+import "google/protobuf/struct.proto";
+import "google/protobuf/timestamp.proto";
+import "validate/validate.proto";
+
+option go_package = "github.com/tolgaOzen/go-skeleton/pkg/pb/base/v1";
+
+// User represents a single user in the system.
+message User {
+  uint64 id = 1 [json_name = "id"]; // The ID of the user.
+  string name = 2 [json_name = "name"]; // The name of the user.
+  google.protobuf.Timestamp created_at = 3 [json_name = "created_at"]; // The time at which the user was created.
+}
