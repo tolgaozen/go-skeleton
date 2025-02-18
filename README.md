@@ -1,4 +1,10 @@
+
 <div align="center">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/86f56636-9836-44d7-b3ab-b6a43fb1b4ec">
+    <img alt="Permify logo" src="https://github.com/user-attachments/assets/86f56636-9836-44d7-b3ab-b6a43fb1b4ec" width="200">
+</picture>
+
 <h1 align="center">
    GoSkeleton
 </h1>
@@ -15,7 +21,6 @@ production-ready applications.
     <a href="https://github.com/tolgaOzen/go-skeleton" target="_blank"><img src="https://img.shields.io/github/license/tolgaOzen/go-skeleton?style=for-the-badge" alt="Skeleton Licence" /></a>&nbsp;
     <a href="https://img.shields.io/github/commit-activity/m/tolgaOzen/go-skeleton?style=for-the-badge" target="_blank"><img src="https://img.shields.io/github/commit-activity/m/tolgaOzen/go-skeleton?style=for-the-badge" alt="Skeleton Commit Activity" /></a>&nbsp;
 </p>  
-
 
 ## Features
 
