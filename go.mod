@@ -11,7 +11,7 @@ require (
 	github.com/agoda-com/opentelemetry-logs-go v0.6.0
 	github.com/cenkalti/backoff/v4 v4.3.0
 	github.com/envoyproxy/protoc-gen-validate v1.2.1
-	github.com/exaring/otelpgx v0.9.0
+	github.com/exaring/otelpgx v0.9.3
 	github.com/fatih/color v1.18.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.3.2
