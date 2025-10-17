@@ -22,7 +22,7 @@ require (
 	github.com/onsi/ginkgo/v2 v2.25.3
 	github.com/onsi/gomega v1.38.2
 	github.com/pkg/errors v0.9.1
-	github.com/pressly/goose/v3 v3.25.0
+	github.com/pressly/goose/v3 v3.26.0
 	github.com/rs/cors v1.11.1
 	github.com/sony/gobreaker v1.0.0
 	github.com/spf13/cobra v1.10.1
