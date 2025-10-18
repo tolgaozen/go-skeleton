@@ -15,7 +15,7 @@ require (
 	github.com/fatih/color v1.18.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.3.2
-	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.2
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.3
 	github.com/hashicorp/go-memdb v1.3.5
 	github.com/jackc/pgx/v5 v5.7.6
 	github.com/juju/ratelimit v1.0.2
@@ -46,9 +46,9 @@ require (
 	go.opentelemetry.io/otel/sdk/metric v1.38.0
 	golang.org/x/net v0.44.0
 	golang.org/x/sync v0.17.0
-	google.golang.org/genproto/googleapis/api v0.0.0-20250922171735-9219d122eba9
+	google.golang.org/genproto/googleapis/api v0.0.0-20250929231259-57b25ae835d4
 	google.golang.org/grpc v1.75.1
-	google.golang.org/protobuf v1.36.9
+	google.golang.org/protobuf v1.36.10
 )
 
 require (
@@ -146,6 +146,6 @@ require (
 	golang.org/x/tools v0.36.0 // indirect
 	google.golang.org/api v0.249.0 // indirect
 	google.golang.org/genproto v0.0.0-20250922171735-9219d122eba9 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250922171735-9219d122eba9 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250929231259-57b25ae835d4 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
