@@ -14,7 +14,7 @@ require (
 	github.com/exaring/otelpgx v0.9.3
 	github.com/fatih/color v1.18.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
-	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.3.2
+	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.3.3
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.3
 	github.com/hashicorp/go-memdb v1.3.5
 	github.com/jackc/pgx/v5 v5.7.6
