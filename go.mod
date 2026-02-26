@@ -3,7 +3,7 @@ module github.com/tolgaOzen/go-skeleton
 go 1.24.0
 
 require (
-	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric v0.54.0
+	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric v0.55.0
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace v1.31.0
 	github.com/Masterminds/squirrel v1.5.4
 	github.com/Permify/sloggcp v0.0.3
