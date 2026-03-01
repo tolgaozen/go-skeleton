@@ -1,6 +1,6 @@
 module github.com/tolgaOzen/go-skeleton
 
-go 1.24.0
+go 1.24.1
 
 require (
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric v0.55.0
@@ -10,7 +10,7 @@ require (
 	github.com/agoda-com/opentelemetry-go/otelslog v0.3.0
 	github.com/agoda-com/opentelemetry-logs-go v0.6.0
 	github.com/cenkalti/backoff/v4 v4.3.0
-	github.com/envoyproxy/protoc-gen-validate v1.3.0
+	github.com/envoyproxy/protoc-gen-validate v1.3.3
 	github.com/exaring/otelpgx v0.10.0
 	github.com/fatih/color v1.18.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
@@ -138,12 +138,12 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/crypto v0.47.0 // indirect
-	golang.org/x/mod v0.31.0 // indirect
+	golang.org/x/mod v0.32.0 // indirect
 	golang.org/x/oauth2 v0.34.0 // indirect
 	golang.org/x/sys v0.40.0 // indirect
 	golang.org/x/text v0.33.0 // indirect
 	golang.org/x/time v0.13.0 // indirect
-	golang.org/x/tools v0.40.0 // indirect
+	golang.org/x/tools v0.41.0 // indirect
 	google.golang.org/api v0.249.0 // indirect
 	google.golang.org/genproto v0.0.0-20250922171735-9219d122eba9 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260128011058-8636f8732409 // indirect
