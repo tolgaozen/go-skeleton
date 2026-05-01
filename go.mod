@@ -20,7 +20,7 @@ require (
 	github.com/jackc/pgx/v5 v5.9.2
 	github.com/juju/ratelimit v1.0.2
 	github.com/onsi/ginkgo/v2 v2.28.2
-	github.com/onsi/gomega v1.39.1
+	github.com/onsi/gomega v1.40.0
 	github.com/pkg/errors v0.9.1
 	github.com/pressly/goose/v3 v3.27.1
 	github.com/rs/cors v1.11.1
